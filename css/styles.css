@@ -97,9 +97,11 @@ body {
 .nav-links:hover {
   color: var(--blue);
   text-decoration: none;
+  transition: 250ms;
 }
 .nav-links:focus {
   color: var(--blue);
+  transition: 250ms;
 }
 .contacts {
   font-family: "Roboto";
@@ -115,9 +117,11 @@ body {
   color: var(--blue);
   fill: var(--blue);
   text-decoration: none;
+  transition: 250ms;
 }
 .contacts:focus {
   color: var(--blue);
+  transition: 250ms;
 }
 .nav-contacts {
   margin-left: 250px;
@@ -248,6 +252,7 @@ h5 {
   text-decoration-color: var(--blue);
   background-color: var(--blue);
   color: var(--white);
+  transition: 250ms;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.8), 0px 2px 2px rgba(0, 0, 0, 0.12)
 }
 .no-dots-list{
@@ -320,6 +325,7 @@ h5 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
+  transition: 250ms;
 }
 
 .product-header {
@@ -347,9 +353,11 @@ h5 {
 .header-icon:hover{
   fill: var(--blue);
   cursor: pointer;
+  transition: 250ms;
 }
 .icons-descriptions:hover {
   fill: var(--blue);
+  transition: 250ms;
 }
 .box-icons-descriptions {
   width: 270px;
@@ -369,6 +377,7 @@ h5 {
 }
 .icon-descriptions:hover {
   fill: var(--blue) solid;
+  transition: 250ms;
 }
 
 .clients-container {
@@ -391,6 +400,7 @@ h5 {
 .icon-our-clients:hover {
   fill: var(--blue);
   border: var(--blue) solid 1px;
+  transition: 250ms;
 }
 .social-media-team {
   margin-bottom: 30px;
@@ -413,6 +423,7 @@ h5 {
   fill: var(--white);
   background-color: var(--blue);
   cursor: pointer;
+  transition: 250ms;
 }
 .footer-container {
   flex-direction: row;
