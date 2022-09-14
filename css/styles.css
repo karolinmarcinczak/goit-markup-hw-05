@@ -4,6 +4,7 @@
   --blue: #2196F3;
   --white: #ffffff;
   --iconcolor: #afb1b8;
+  --black: #000000;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -506,5 +507,21 @@ h5 {
 
 .picture-with-label {
   position: relative;
+}
+.icon-modal {
+  fill: var(--black);
+}
+.backdrop {
+  background-color: #00000033;
+}
+.modal {
+  background-color: var(--white);
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.close-btn {
   
 }
